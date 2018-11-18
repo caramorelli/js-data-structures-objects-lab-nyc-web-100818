@@ -7,7 +7,6 @@ function updateDriverWithKeyAndValue(driver, key, value) {
   for (var keys in driver) {
     new_obj[keys] = value;
   }
-  new_obj[key] = value;
   return new_obj;
 }
 
