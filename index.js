@@ -1,6 +1,6 @@
 // Write your solution in this file!
 
-const driver = {}
+const driver = { name: }
 
 describe('drivers', function () {
   it('defines a `driver` driver', function () {
