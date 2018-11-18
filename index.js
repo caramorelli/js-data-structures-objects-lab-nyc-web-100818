@@ -3,13 +3,13 @@
 const driver = { };
 
 function updateDriverWithKeyAndValue(driver, key, value) {
-  for var keys in driver {
+  // for var keys in driver {
     
-  }
+  // }
   
-  var object = {}
-  object[key] = value
-  return object
+  // var object = {}
+  // object[key] = value
+  // return object
 }
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
