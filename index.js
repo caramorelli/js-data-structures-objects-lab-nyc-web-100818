@@ -20,7 +20,6 @@ function deleteFromDriverByKey(driver, key) {
     }
   }
   return new_obj;
-  
 }
 
 function destructivelyDeleteFromDriverByKey(driver, key) {
