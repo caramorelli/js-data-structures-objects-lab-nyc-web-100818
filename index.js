@@ -1,20 +1,9 @@
 // Write your solution in this file!
 
-const driver = { name: 'Same' }
+const driver = { name: 'Same' };
 
-describe('drivers', function () {
-  it('defines a `driver` driver', function () {
-    expect(typeof driver).to.equal('object');
-  });
+updateDriverWithKeyAndValue(driver, key, value)
 
-  describe('updateDriverWithKeyAndValue(driver, key, value)', function () {
-    beforeEach(function () {
-      for (const key in driver) {
-        delete driver[key];
-      }
-
-      driver.name = 'Sam';
-    });
 
     it('returns an driver with the original key value pairs and the new key value pair', function () {
       expect(updateDriverWithKeyAndValue(driver, 'address', '11 Broadway')).to.eql({
