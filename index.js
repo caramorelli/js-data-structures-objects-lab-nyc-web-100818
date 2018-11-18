@@ -10,6 +10,9 @@ function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
   
 }
 
+function destructivelyDeleteFromDriverByKey(driver, key) {
+  
+}
 
 //   describe('destructivelyUpdateDriverWithKeyAndValue(driver, key, value)', function () {
 //     it('updates `driver` with the given `key` and `value` (it is destructive) and returns the entire updated driver', function () {
