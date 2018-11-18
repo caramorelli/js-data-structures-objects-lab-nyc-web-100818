@@ -3,12 +3,12 @@
 const driver = { };
 
 function updateDriverWithKeyAndValue(driver, key, value) {
-  
+   objectdestructivelyUpdateDriverWithKeyAndValuedestructivelyUpdateDriverWithKeyAndValue[key] = value;
+  return objectdestructivelyUpdateDriverWithKeyAndValuedestructivelyUpdateDriverWithKeyAndValue;
 }
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
-  objectdestructivelyUpdateDriverWithKeyAndValuedestructivelyUpdateDriverWithKeyAndValue[key] = value;
-  return objectdestructivelyUpdateDriverWithKeyAndValuedestructivelyUpdateDriverWithKeyAndValue;
+ 
 }
 
 function deleteFromDriverByKey(driver, key) {
